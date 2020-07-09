@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recomended"
+            android:icon="@drawable/thumbs_up"
+            android:title="Recomended" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/star_icon"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_concerts"
+            android:icon="@drawable/saved_icon"
+            android:title="My Shows" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/gps_icon"
+            android:title="Find shows near you" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="Profile" />
+        </menu>
+    </item>
+
+</menu>

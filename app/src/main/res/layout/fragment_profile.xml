@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="25dp"
+        android:layout_margin="25dp"
+        android:textFontWeight="1000"
+        android:textSize="25sp"
+        android:text="Profile" />
+
+    <ListView
+        android:id="@+id/ListUser"
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <ListView
+        android:id="@+id/ListUserInfo"
+        android:layout_width="424dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+</GridLayout>

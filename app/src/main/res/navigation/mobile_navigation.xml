@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_recomended">
+
+    <fragment
+        android:id="@+id/nav_recomended"
+        android:name="com.example.gruppprojektet_musicapp.ui.recomended.RecomendedFragment"
+        android:label="Recomended Artists"
+        tools:layout="@layout/fragment_recomended" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.gruppprojektet_musicapp.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_concerts"
+        android:name="com.example.gruppprojektet_musicapp.ui.concerts.ConcertsFragment"
+        android:label="My Shows"
+        tools:layout="@layout/fragment_concerts" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.gruppprojektet_musicapp.ui.map.MapFragment"
+        android:label="Find shows near you"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.gruppprojektet_musicapp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_addArtist"
+        android:name="com.example.gruppprojektet_musicapp.ui.addArtist.AddArtistFragment"
+        android:label="Add Artist"
+        tools:layout="@layout/fragment_addartist" />
+
+    <fragment
+        android:id="@+id/nav_addConcert"
+        android:name="com.example.gruppprojektet_musicapp.ui.addConcert.AddConcertFragment"
+        android:label="Add Concert"
+        tools:layout="@layout/fragment_add_concert" />
+
+    <fragment
+        android:id="@+id/nav_addNews"
+        android:name="com.example.gruppprojektet_musicapp.ui.addNews.AddNewsFragment"
+        android:label="Add News"
+        tools:layout="@layout/fragment_add_news" />
+
+    <fragment
+        android:id="@+id/nav_concertInfo"
+        android:name="com.example.gruppprojektet_musicapp.ui.ConcertInfo.ConcertInfoFragment"
+        android:label="Concert info"
+        tools:layout="@layout/fragment_concertinfo" />
+
+    <fragment
+        android:id="@+id/nav_newsInfo"
+        android:name="com.example.gruppprojektet_musicapp.ui.NewsInfo.NewsInfoFragment"
+        android:label="NewsInfo"
+        tools:layout="@layout/news_info_fragment" />
+</navigation>
